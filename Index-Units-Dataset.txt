@@ -1,0 +1,46 @@
+﻿Explanation of the units in Data_Merced_Chronosequence.csv
+Linked to the Mainka et al. (2022) Dataset.
+
+Soil age: ka
+mean depth: cm
+d15N: per mille
+N: g/cm²
+d13C: per mille
+C: g/cm²
+FTIR-values: Absorbance units
+Clay: percent, <2 micrometer
+Silt: percent, 2-53 micrmeter
+Sand: percent, > 53 micrometer
+Al: mg/kg
+Al2O3: %
+Ca: mg/kg
+CaO: %
+Fe: mg/kg
+Fe2O3: %
+K: mg/kg
+CEC: meq/100g
+BaseSaturation: %
+TRB: meq/100g
+rootC input: mgC/cm³
+K2O: %
+Mg: mg/kg
+MgO: %
+Na: mg/kg
+Na2O: %
+Si: mg/kg
+SiO2: %
+Ba: mg/kg
+Co: mg/kg
+Cr: mg/kg
+Cu: mg/kg
+Mn: mg/kg
+MNO: %
+Ni: mg/kg
+P: mg/kg
+P2O5: %
+S: mg/kg
+Sr: mg/kg
+Ti: mg/kg
+TiO2: %
+Zn: mg/kg
+Zr: mg/kg
