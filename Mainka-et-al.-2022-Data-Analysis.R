@@ -11,8 +11,7 @@
 rm(list=ls())
 
 #load dataset and compute ratios ####
-setwd("C:/Users/Moritz/Desktop/BachelorStudium/B. Sc. Thesis/Drafting/20200911_Simplified approach")
-df <- read.table("20201027_data_exceptDeepSubsoil.txt", header = T, sep="\t")
+df <- read.table("Dataset_Merced_Chronosequence.txt", header = T, sep="\t")
 df <- na.omit(df)
 
 # Linear regression for C/N ratio ####
@@ -508,7 +507,7 @@ aov_residuals <- residuals(object = anova.13C)
 shapiro.test(x = aov_residuals )
 
 # C stocks natgeo 
-C <- read.table("Cstocks_Doetterl.txt", header = T, sep = "\t")
+C <- read.table("Cstocks_Doetterl2018.txt", header = T, sep = "\t")
 str(C)
 #C$Soil.age <- factor(C$Soil.age)
 #levels(C$Soil.age) <- c("0.1","3","19","295","3000")
